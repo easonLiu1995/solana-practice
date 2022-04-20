@@ -1,0 +1,13 @@
+@import './mixins'
+.header
+  padding: 10px
+.nav
+  display: flex
+  align-items: center
+  &__icon
+    height: 50px
+    margin-right: auto
+  &__user
+    margin-right: 20px
+    @include mobile
+      margin-right: 10px
